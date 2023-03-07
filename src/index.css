@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.nav{
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+ul{
+    display: flex;
+}
+li{
+    margin-left: 80px;
+}
+.spin-text{
+    position: absolute;
+    color: #fff;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+}
